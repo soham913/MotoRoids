@@ -1,0 +1,25 @@
+.Navs{
+    max-height: 50%;
+    background-color: red;
+}
+.Navbrand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: black;
+}
+
+.Navlinks{
+    color: black;
+}
+.App{
+    background-color: black;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.Caro{
+    height: 10%;
+}

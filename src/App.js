@@ -1,24 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-
+import './Components/NavbarComponent'
+import NavbarComponent from './Components/NavbarComponent';
+import DashboardComponent from './Components/DashboardComponent'
+import ReactDOM from 'react-dom'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faMotorcycle } from '@fortawesome/free-solid-svg-icons'
+import './Css/Styles.css'
+library.add(fab, faMotorcycle)
 function App() {
   return (
+    <>
+    <NavbarComponent />
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>Hello Racer!</h1>
+        <DashboardComponent />
     </div>
+    </>
   );
 }
 
